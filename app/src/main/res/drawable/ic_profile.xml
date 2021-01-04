@@ -1,0 +1,40 @@
+<!--
+  ~ Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+  <path
+      android:pathData="M9.0679,9.0374a6.3707,6.3707 0,1 0,12.7414 0a6.3707,6.3707 0,1 0,-12.7414 0z"
+      android:strokeAlpha="0.4"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:fillAlpha="0.4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M5.3334,24.2685C5.3316,23.8206 5.4318,23.3783 5.6263,22.9748C6.2365,21.7544 7.9573,21.1076 9.3852,20.8146C10.415,20.5949 11.4591,20.4481 12.5096,20.3753C14.4545,20.2044 16.4106,20.2044 18.3555,20.3753C19.4059,20.4489 20.4499,20.5957 21.4798,20.8146C22.9077,21.1076 24.6286,21.6934 25.2388,22.9748C25.6298,23.7972 25.6298,24.752 25.2388,25.5744C24.6286,26.8558 22.9077,27.4416 21.4798,27.7223C20.4512,27.9512 19.4068,28.1022 18.3555,28.1739C16.7725,28.3081 15.1821,28.3326 13.5958,28.2471C13.2296,28.2471 12.8757,28.2471 12.5096,28.1739C11.4622,28.103 10.4218,27.9521 9.3974,27.7223C7.9573,27.4416 6.2487,26.8558 5.6263,25.5744C5.4328,25.1663 5.3327,24.7201 5.3334,24.2685Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:fillType="evenOdd"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="round"/>
+</vector>

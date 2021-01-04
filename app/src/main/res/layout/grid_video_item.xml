@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  ~
+  -->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/grid_video"
+    android:layout_height="@dimen/grid_video"
+    android:layout_margin="3dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/round_ripple"
+    app:cardCornerRadius="10dp">
+
+    <!-- Front View -->
+    <RelativeLayout
+        android:id="@+id/vid_front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:background="@drawable/ic_rectangle_orange"
+        android:visibility="visible">
+
+        <com.klinker.android.simple_videoview.SimpleVideoView
+            android:id="@+id/grid_video"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:soundEffectsEnabled="false"
+            app:loop="true"
+            app:muted="true"
+            app:showSpinner="true"
+            app:stopSystemAudio="false" />
+
+        <ImageButton
+            android:id="@+id/pp_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:contentDescription="@string/play_pause_button"
+            android:src="@drawable/ic_pause"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/image"
+            android:padding="3dp"
+            android:src="@drawable/ic_image" />
+
+    </RelativeLayout>
+
+    <!-- Back View -->
+    <LinearLayout
+        android:id="@+id/vid_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_rectangle_orange"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:weightSum="4">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/big_player"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:foreground="@drawable/round_ripple"
+            android:gravity="center_vertical"
+            android:maxEms="1"
+            android:maxLines="1"
+            android:text="@string/fullscreen"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_fullscreen" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/purple_700" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:foreground="@drawable/round_ripple"
+            android:gravity="center_vertical"
+            android:maxEms="1"
+            android:maxLines="1"
+            android:text="@string/hide"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_hide" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/purple_700" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:foreground="@drawable/round_ripple"
+            android:gravity="center_vertical"
+            android:maxEms="1"
+            android:maxLines="1"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_delete" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/purple_700" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:foreground="@drawable/round_ripple"
+            android:gravity="center_vertical"
+            android:maxEms="1"
+            android:maxLines="1"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_cancel" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

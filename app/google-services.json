@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530568516871",
+    "firebase_url": "https://exovideo-581e7.firebaseio.com",
+    "project_id": "exovideo-581e7",
+    "storage_bucket": "exovideo-581e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530568516871:android:e212ac006f5eeeb14421a2",
+        "android_client_info": {
+          "package_name": "com.onurcan.exovideoreference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530568516871-2d7i11v76oo3da1o8ov28rjrdktl44fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onurcan.exovideoreference",
+            "certificate_hash": "37a8917c6afe9096e35fd4141b6b0fa50e81796c"
+          }
+        },
+        {
+          "client_id": "530568516871-p9eg0r4tp0iak0uihslq5kt2436t2832.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjPQ7dJLj_dCuGEI2Qs0gRuZhgNoqi9SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530568516871-p9eg0r4tp0iak0uihslq5kt2436t2832.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="image">resim</string>
+    <string name="app_name_well">Exoplayer vs HMS Video Kit Referans Uygulaması</string>
+    <string name="email">E-Posta</string>
+    <string name="password">Şifre</string>
+    <string name="send">Gönder</string>
+    <string name="login">Giriş</string>
+    <string name="verification_code">Doğrulama kodu</string>
+    <string name="nav_home">Anasayfa</string>
+    <string name="nav_record">Kayıt</string>
+    <string name="nav_profile">Profil</string>
+    <string name="arrow">Ok</string>
+    <string name="replay_10s">10s Geri</string>
+    <string name="play_video">Oynat</string>
+    <string name="forward_10s">10s İleri</string>
+    <string name="enter_url_address_for_a_video">Video için URL Girin</string>
+    <string name="record_video">Video Çek</string>
+    <string name="videos">Videolar</string>
+    <string name="welcome">Merhaba <bi>%1$s</bi></string>
+    <string name="rotate_camera">Kamerayı Döndür</string>
+    <string name="play_pause_button">Oynat Duraklat Tuşu</string>
+    <string name="send_url">Url Gönder</string>
+    <string name="share">Paylaş</string>
+    <string name="delete">Sil</string>
+    <string name="cancel">İptal</string>
+    <string name="moving_to_unshare">Ana sayfadan video gizleniyor</string>
+    <string name="hide">Ana sayfadan video gizle</string>
+    <string name="moving_to_share">Ana sayfadan video göster</string>
+    <string name="enter_yt_url_address_for_a_video">Video için Youtube URL\'sini Girin</string>
+    <string name="error_url">Lütfen geçerli bir adres girin!</string>
+    <string name="error_url_yt">Lütfen geçerli bir Youtube URL\'si girin!</string>
+    <string name="lovely">Kalpli</string>
+    <string name="info">Bilgi</string>
+    <string name="message">Meaj</string>
+    <string name="video_information">Video Bilgisi</string>
+    <string name="video_service_provider">Video Servis Sağlayıcısı</string>
+    <string name="video_url">Video linki</string>
+    <string name="video_sender">Video Gönderen</string>
+    <string name="video_sender_id">Video Gönderen Kimliği</string>
+    <string name="video_width_height">Video Genişlik - Yükseklik</string>
+    <string name="video_play_mode">Video Oynatma Modu</string>
+    <string name="video_total_comments">Video Toplam Yorumları</string>
+    <string name="video_given_lovelies">Videoya Verilen Kalpler</string>
+    <string name="exit">Çıkış</string>
+    <string name="video_settings"><bi>%1$s</bi> - Ayarlar</string>
+    <string name="app_version">Uygulama Versiyonu - <bi>%1$s</bi></string>
+    <string name="lovely_counter">Kalpli <bi>%1$s</bi></string>
+    <string name="comment">Yorum Yap</string>
+    <string name="name">isim</string>
+    <string name="timestamp">Zaman damgası</string>
+    <string name="reply">Cevapla</string>
+    <string name="view_replies">Yorumları Görüntüle</string>
+    <string name="me">Ben</string>
+    <string name="type_a_message">Bir mesaj yazın</string>
+    <string name="fullscreen">Tam ekran</string>
+    <string name="preview">Ön izleme</string>
+    <string name="shuffle">Karıştır</string>
+    <string name="repeat">Tekrar et</string>
+    <string name="play">Oynat</string>
+    <string name="pause">Durdur</string>
+    <string name="next">Sonraki</string>
+    <string name="close">Kapat</string>
+    <string name="accept">Kabul et</string>
+    <string name="enter_video_name">Video Adını Girin</string>
+    <string name="thread">Konu</string>
+    <string name="settings">Ayarlar</string>
+    <string name="language_turkish">Dil: Türkçe</string>
+    <string name="language_english">Dil: İngilizce</string>
+    <string name="more">Daha Fazlası</string>
+    <string name="pick_url">Url seçin</string>
+    <string name="recorded_videos_will_appear_here">Kaydedilen videolar burada görünecektir. Göründüklerinde daha fazlası için kaydırın!</string>
+</resources>
